@@ -1,5 +1,5 @@
 import express from 'express'
-import protect from "../middleware/authMiddleware.js";
+import protect from "../middleware/authMiddleWare.js";
 import upload from "../middleware/multer.js";
 import { register, login, uploadAvatar } from '../controllers/userControllers.js'
 const router = express.Router();

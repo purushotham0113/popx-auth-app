@@ -11,7 +11,7 @@ import userRoutes from './routes/userRoutes.js'
 const app = express();
 
 app.use(cors({
-    origin: ["http://localhost:5000"]
+    origin: ["http://localhost:5000", "https://popx-auth-app-2xy7.vercel.app"]
 
 }))
 app.use(express.json())
