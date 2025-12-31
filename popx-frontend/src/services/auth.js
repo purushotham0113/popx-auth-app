@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // const API_BASE_URL = "http://localhost:5000/api";
-const API_BASE_URL = "https://popx-auth-app-0n4e.onrender.com";
+const API_BASE_URL = "https://popx-auth-app-0n4e.onrender.com/api";
 
 
 
